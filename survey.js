@@ -31,9 +31,11 @@ const profileQuestions = function(questionArray,index,answersArray) {
 };
 
 profileQuestions(questions,0,answers);
-
+// printing out profile dunction
 const printProfile = function(array) {
+  // clears the console
   console.clear();
+  // profile printing
   console.log(`Hi my name is  ${array[0]}.I like ${array[1]} and love to listen to ${array[2]} while doing it . My favourite meal-time is ${array[3]} and I usually love to eat ${array[4]}. My best sport is ${array[5]}. I am amazing at ${array[6]}`);
   return;
 };
